@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    font-size: 1.2vw;
+}
+
+main {
+    position: relative;
+    top: 1vw;
+    width: 100%;
+    padding-bottom: 6vw;
+}
+
+.main_container {
+    width: 97%;
+    color: black;
+    padding: 1vw 1vw 8vw 1vw;
+}
+
+.title_bar {
+    padding-left: 4vw;
+}
+
+.input_container {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.form_container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+.form_container form {
+    position: relative;
+    flex-direction: column;
+    display: flex;
+    width: 50%;
+    display: flex;
+    padding: 1.5vw 3vw 3vw 3vw;
+    justify-content: center;
+    align-self: center;
+}
+
+.input_container {
+    padding: 1vw;
+    margin: 1vw;
+    border: transparent;
+    border-radius: 2vw;
+    box-shadow: 0px 0px 0.1em rgba(0, 0, 0, 0.8);
+}
+
+.input_container label, .input_weight label {
+    margin: 1vw;
+}
+
+.input_container input {
+    margin-left: 1vw;
+    height: 1vw;
+    width: 50%;
+    border-radius: 2vw;
+    border: transparent;
+    padding: 1vw 1vw 1vw 2vw;
+    font-size: 0.8rem;
+}
+
+input:focus {
+    outline: none;
+    background-color: none;
+}
+
+.weight input {
+    width: 20%;
+}
+
+.map_img {
+    padding: 3vw;
+    width: 50%;
+    margin: auto;
+    height: 40vw;
+    display: flex;
+    flex-direction: row;
+}
+
+.map_img iframe {
+    border: 0;
+}
+
+.map_img img {
+    width: 100%;
+}
+
+.checkbox_container {
+    padding-left: 3vw;
+    margin-top: 2vw;
+}
+
+#button_recycle {
+    width: 50%;
+    margin: auto;
+    margin-top: 5vw;
+    height: 3vw;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 2vw;
+    border: transparent;
+    background-color: #c8ef1a;
+    transition: linear 0.5s;
+}
+
+#button_recycle:hover {
+    box-shadow: 0px 0px 3vw #c8ef1abf;
+}
+
+#list-title{
+    margin-bottom: 0;
+    padding-left: 2vw;
+}
+
+#list-title > h1{
+    margin-bottom: 0.8vw;
+}
+
+.recycle-list{
+    padding: 3vw;
+    margin-bottom: 2vw;
+    font-size: 1.8vw;
+    border: 0.5vw ridge;
+    border-radius: 2vw;
+}
+
+.recycle-list > button{
+    background-color: #c8ef1abf;
+    width: 10%;
+    height: 3vw;
+    border-radius: 2vw;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 2vw;
+    border: transparent;
+}
+
+.recycle-list > button:hover {
+    box-shadow: 0px 0px 3vw rgba(200, 239, 26, 0.75);
+    cursor: pointer;
+}
+
+.information h1, .information h2, .information h3, .information h4{
+    padding: 0;
+    margin: 0;
+}
+
+.information h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.information h2 {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.information h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 0;
+}
+
+.information h4 {
+    font: 1rem;
+    font-weight: 300;
+    padding-top: 1.5vw;
+}
+
+.map_img > div {
+    height: 2vw;
+    width: 2vw;
+    background-color: black;
+    margin-right: 1vw;
+}
+

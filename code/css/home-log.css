@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    font-size: 1.2vw;
+}
+
+main {
+    position: relative;
+    top: 1vw;
+    width: 100%;
+    padding-bottom: 0;
+}
+
+.main_container {
+    width: 100%;
+    color: black;
+    border: 1px solid black;
+    position: relative;
+    background-color: #dafbcb;
+}
+
+.user-info{
+    position: relative;
+    padding-top: 1vw;
+    padding-left: 10vw;
+    padding-bottom: 13vw;
+}
+
+
+.username h1{
+    transition: all 0s;
+    font-weight: bold;
+}
+
+.username p{
+    position:absolute;
+    top : 2.5vw;
+    left: 37vw;
+    width: 5.5vw;
+    border-radius: 1vw;
+    background-color: rgb(196, 195, 195);
+    font-size: 0.6rem;
+    text-align: center;
+}
+
+#recycle-bar{
+    background-color: grey;
+    border-radius: 1vw;
+    width: 40vw;
+}
+
+#recycle-bar p{
+    position: absolute;
+    top: 6.8vw;
+    left: 42.5vw;
+}
+
+.recycle-progress{
+    background-color: greenyellow;
+    border-radius: 1vw;
+    width: 30vw;
+    height: 2vw;
+}
+
+.options{
+    display: flex;
+    justify-content: space-evenly;
+    height: 25vw;
+    width: 100%;
+    background-color: white;
+}
+
+.options h1, .options p{
+    margin-left: 2vw;
+    color: white;
+}
+
+.options h1{
+    font-size: 1.5rem;
+}
+
+.options p{
+    font-size: 0.8rem;
+    font-weight: lighter;
+}
+
+.recycle, .redeem, .forum{
+    margin: 2vw 0;
+    width: 15vw;
+    margin-top: 4vw;
+    top: 12vw;
+    position: absolute;
+    height: 16vw;
+    width: 18%;
+    padding: 2vw 4vw 0 2vw;
+    border-radius: 2vw;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+    text-align: justify;
+}
+
+.recycle:hover, .redeem:hover, .forum:hover{
+    height: 20vw;
+    width: 20vw;
+}
+
+.recycle{
+    background-color: #3F0071;
+    left: 10vw;
+}
+
+.recycle:hover {
+    background-color: white;
+}
+
+.recycle:hover p, .recycle:hover h1{
+    color: black;
+}
+
+.redeem{
+    background-color: #FB2576;
+}
+
+.redeem:hover{
+    background-color: white;
+    height: 20vw;
+}
+
+.redeem:hover p, .redeem:hover h1{
+    color: black;
+}
+
+.forum{
+    background-color: #1315E5;
+    right: 10vw;
+}
+
+.forum:hover{
+    background-color: white;
+    height: 20vw;
+}
+
+.forum:hover p, .forum:hover h1{
+    color: black;
+}
+
+
+.bottom-half{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    padding-bottom: 5vw;
+}
+
+.bottom-half h1{
+    font-weight: 1000;
+    font-size: 1.5rem;
+}
+
+.keuntungan{
+    position: relative;
+    width: 30px;
+    padding-left: 5vw;
+    flex: 1;
+}
+
+#balance{
+    display: flex;
+    border: solid;
+    border-radius: 2vw;
+    border: transparent;
+    border-width: 0.1vw;
+    box-shadow: 0 0.3vw 1vw rgba(0,0,0,0.5);
+    width: 40%;
+    height: 4vw;
+    align-items: start;
+    flex-direction: column;
+    padding-top: 1vw;
+    padding-left: 2vw;
+    margin-top: 3vw;
+    padding-bottom: 0.5vw;
+}
+
+#balance p, #balance h2{
+    margin: 0 0 0 0.5vw;
+    padding: 0;
+}
+
+#balance p{
+    font-size: 0.6rem;
+}
+
+#balance h2{
+    font-size: 1.3rem;
+}
+
+.orders{
+    border: solid;
+    border-color: transparent;
+    border-radius: 2vw;
+    border-width: 0.1vw;
+    box-shadow: 0 0.3vw 1vw rgba(0,0,0,0.5);
+    margin-top: 3vw;
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    height: 20vw;
+}
+
+.orders img{
+    margin: 0;
+    padding: 0;
+    object-fit: contain;
+    height: 3vw;
+    width: 3vw;
+}
+
+#request_user {
+    transition: ease-in-out 0.5s;
+    cursor: pointer;
+}
+
+#request_user:hover {
+    background-color: #dafbcb;
+}
+
+.permintaan{
+    flex: 1;
+    width: 25vw;
+    padding-bottom: 3vw;
+    padding-left: 1vw;
+}

@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    font-size: 1.2vw;
+}
+
+main {
+    position: relative;
+    top: 1vw;
+    width: 100%;
+    padding-bottom: 6vw;
+}
+
+.main_container {
+    width: 97%;
+    color: black;
+    padding: 1vw;
+}
+
+.forum_nav_bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.forum_nav_bar h1 {
+    margin: 3vw;
+}
+
+.comment_section {
+    padding: 2vw;
+}
+
+.comment_bubble {
+    padding: 2vw 2vw 1vw 2vw;
+    margin: 1vw 0 1vw 0;
+    border-radius: 2vw;
+    box-shadow: 0 0.4em 0.4em rgba(0, 0, 0, 0.25);
+}
+
+.comment_section h3, .comment_section h4 {
+    padding: 0;
+    margin: 0;
+}
+
+.comment_section h3 {
+    font-size: 1.3rem;
+}
+
+.comment_section h4 {
+    font-size: 1rem;
+    opacity: 60%;
+}
+
+.sticky_add_forum {
+    position: fixed;
+    bottom: 0;
+    z-index: 5;
+    width: inherit;
+    height: 4vw;
+    padding: 1vw;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.sticky_add_forum form {
+    width: inherit;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+}
+
+.sticky_add_forum > form input {
+    width: 80%;
+    height: 90%;
+    margin-right: 2vw;
+    padding: 0 3vw 0 3vw;
+    border-radius: 2vw;
+    border: 1px solid gray;
+    opacity: 70%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+}
+
+.sticky_add_forum > form input:focus {
+    outline: none;
+}
+
+.sticky_add_forum > form button {
+    border: transparent;
+    background-color: transparent;
+    cursor: pointer;
+    transition: ease-in-out 0.5s;
+    border-radius: 1vw;
+    height: 90%;
+}
+
+.sticky_add_forum > form button:hover {
+    opacity: 70%;
+}
+
+.sticky_add_forum > form button img {
+    position: relative;
+    width: 2vw;
+    top: 0.2em;
+    left: -0.1em;
+}
+
+@media all and (max-width: 768px){
+    .comment_bubble {
+        padding: 5vw 5vw 3vw 5vw;
+    }
+}
+
+@media all and (max-width: 480px){
+    .sticky_add_forum {
+        height: 8vw;
+    }
+
+    .comment_bubble {
+        border-radius: 6vw;
+    }
+}

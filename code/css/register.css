@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    font-size: 1.2vw;
+}
+
+main {
+    position: relative;
+    top: 1vw;
+    width: 100%;
+}
+
+.main_container {
+    width: 97%;
+    color: black;
+    padding: 1vw;
+}
+
+.form_container {
+    width: 100% - 1vw;
+    padding: 1vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 4vw;
+}
+
+.form_container form {
+    border: 1px solid black;
+    width: 30%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2vw;
+    padding: 2vw;
+}
+
+.login_text h1 {
+    font-size: 2rem;
+}
+
+.form_container form input {
+    width: 80%;
+    height: 5vw;
+    border: transparent;
+    border-bottom: 0.2vw solid black;
+    font-size: 1rem;
+}
+
+.form_container form input:focus {
+    outline: none;
+}
+
+.form_container form input::placeholder {
+    padding-top: 20vw;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.form_container form button {
+    width: 60%;
+    margin-top: 3vw;
+    height: 3vw;
+    border: transparent;
+    transition: ease-in-out 0.5s;
+    background-color: #c8ef1a;
+}
+
+.form_container form button:hover {
+    box-shadow: 0 0 3vw rgba(200, 239, 26, 1);
+}
+
+.with_google {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.with_google h5 {
+    margin: 0;
+    padding: 0;
+}
+
+.with_google img {
+    width: 3vw;
+    margin-top: 1vw;
+    cursor: pointer;
+}
+
+#text-Fail{
+    text-align: center;
+    color: red;
+}
+
+.password_icon_container {
+    position: absolute;
+    right: 39%;
+    top: 27vw;
+}
+
+.password_icon_container > input {
+    border: 0;
+    display: none;
+}
+
+#viewOpen {
+    display: none;
+}
